@@ -1,10 +1,14 @@
-header{
+header {
   background-color: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 15%;
-  padding-bottom: 2%;
+  height: 12%;
   text-align: left;
+  position: static ;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 2%;
 }
 
@@ -84,11 +88,42 @@ footer div{
   header {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    text-align: center;
   }
   footer {
     flex-direction: column;
   }
   header div {
+    position: absolute;
+    top: 13%;
+    right: 33%;
     margin: auto;
   }
+  body div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img1{
+    -webkit-filter:blur(10px);
+    width: 90%;
+    height: 90%;
+  }
+
+  .img3{
+    -webkit-filter:sepia(90%);
+    width: 90%;
+    height: 90%;
+  }
+
+  .pares{
+    -webkit-filter:grayscale(100%);
+    width: 90%;
+    height: 90%;
+  }
+
+img{
+  width: 90%;
+}
 }

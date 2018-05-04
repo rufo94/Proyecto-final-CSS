@@ -2,9 +2,14 @@ header {
   background-color: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  height: 15%;
-  padding-bottom: 2%;
+  height: 12%;
   text-align: left;
+  position: static;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2%;
 }
 
 header h1 {
@@ -25,7 +30,7 @@ body {
 
 body #imagenprincipal img {
   padding-top: 1%;
-  width: 60%;
+  width: 80%;
 }
 
 body #imgsecizq img {
@@ -99,12 +104,21 @@ footer div {
   header {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    text-align: center;
   }
   footer {
     flex-direction: column;
   }
   header div {
+    position: absolute;
+    top: 13%;
+    right: 33%;
     margin: auto;
+  }
+  body #imgsec{
+    display: flex;
+    flex-direction: column;
   }
 }
 
